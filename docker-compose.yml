@@ -1,0 +1,7 @@
+version: "3.5"
+services:
+  app-s-size-url:
+    build: .
+    container_name: app-s-size-url
+    volumes:
+        - ./:/go/src/s-size-url

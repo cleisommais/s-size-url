@@ -12,7 +12,7 @@ ___
 
 ## Functional Requirements
 
-* Given a URL, our service should generate a shorter and unique alias of it. This is called a short link. This link should be short enough to be easily copied and pasted into applications.
+* Given an URL, our service should generate a shorter and unique alias of it. This is called a short link. This link should be short enough to be easily copied and pasted into applications.
 * When users access a short link, our service should redirect them to the original link.
 * Users should optionally be able to pick a custom short link for their URL.
 * Links will expire after a standard default timespan. Users should be able to specify the expiration time.
@@ -27,3 +27,12 @@ ___
 
 * Analytics; e.g., how many times a redirection happened?
 * Our service should also be accessible through REST APIs by other services.
+
+
+https://github.com/khannedy/golang-clean-architecture
+https://github.com/eminetto/clean-architecture-go
+https://github.com/manakuro/golang-clean-architecture
+https://github.com/hirotakan/go-cleanarchitecture-sample/tree/master/src/app
+https://github.com/err0r500/Clean-Architecture-in-Golang/tree/master/src
+https://github.com/rodrigobranas/youtube/tree/master/cleanarchitecture_fullcycle/src
+
